@@ -1,0 +1,70 @@
+.right {
+  margin-right: 100px;
+  float:right;
+}
+.logo {
+  height: 95%;
+}
+.logo2 {
+  padding: 0;
+  padding-left: 50px;
+}
+.back {
+   background-image: url("../KivaPhotos/KivaPhotos/mmfiwbhx1by-ron-hansen.jpg");
+   background-size: cover;
+   background-position: center;
+   height: 600px;
+}
+.navbarMargin{
+  margin:0;
+}
+
+@media only screen and (min-width: 315px) {
+  .title {
+  margin:0;
+  padding-left: 20px;
+  padding-top: 400px;
+  color:white;
+  }
+  .submit {
+    margin:0;
+    left: 140px;
+    top: 330px;
+    display:inline;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .title {
+  margin:0;
+  padding-left: 55px;
+  padding-top: 400px;
+  color:white;
+  }
+}
+@media only screen and (min-width: 414px) {
+  .title {
+  margin:0;
+  padding-left: 65px;
+  padding-top: 400px;
+  color:white;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .title {
+  margin:0;
+  padding-left: 150px;
+  padding-top: 400px;
+  color:white;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .title {
+  margin:0;
+  padding-left: 400px;
+  padding-top: 400px;
+  color:white;
+  }
+}
