@@ -1,4 +1,4 @@
-.right {
+.entry {
   margin-right: 100px;
   float:right;
 }
@@ -18,7 +18,10 @@
 .navbarMargin{
   margin:0;
 }
-
+.btn {font-size: 5vw;}
+.button {
+  padding: 15px;
+}
 @media only screen and (min-width: 315px) {
   .title {
   margin:0;
@@ -39,7 +42,7 @@
 @media only screen and (min-width: 414px) {
   .title {
   margin:0;
-  padding-left: 65px;
+  padding-left: 70px;
   padding-top: 400px;
   color:white;
   }
@@ -48,7 +51,7 @@
 @media only screen and (min-width: 768px) {
   .title {
   margin:0;
-  padding-left: 150px;
+  padding-left: 180px;
   padding-top: 400px;
   color:white;
   }
@@ -57,8 +60,23 @@
 @media only screen and (min-width: 1024px) {
   .title {
   margin:0;
-  padding-left: 400px;
+  padding-left: 428px;
   padding-top: 400px;
   color:white;
   }
 }
+.carousel-inner img {
+  margin: auto;
+}
+.panel-footer {
+  margin-left:520px;
+}
+
+
+.goal {
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    float:none;
+    color:white;
+  }
