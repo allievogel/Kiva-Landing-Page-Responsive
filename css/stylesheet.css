@@ -18,9 +18,14 @@
 .navbarMargin{
   margin:0;
 }
-.btn {font-size: 5vw;}
+.btn {
+  font-size: 5vw;
+}
 .button {
   padding: 15px;
+}
+.help {
+  text-align: center;
 }
 @media only screen and (min-width: 315px) {
   .title {
@@ -28,6 +33,10 @@
   padding-left: 20px;
   padding-top: 400px;
   color:white;
+  }
+  .help {
+    text-align: center;
+    font-size: 14px;
   }
 }
 
@@ -38,6 +47,12 @@
   padding-top: 400px;
   color:white;
   }
+  .help {
+    text-align: center;
+    font-size: 14px;
+    padding:0;
+    margin:0;
+  }
 }
 @media only screen and (min-width: 414px) {
   .title {
@@ -45,6 +60,12 @@
   padding-left: 70px;
   padding-top: 400px;
   color:white;
+  }
+  .help {
+    text-align: center;
+    font-size: 18px;
+    padding:0;
+    margin:0;
   }
 }
 
@@ -55,6 +76,12 @@
   padding-top: 400px;
   color:white;
   }
+  .help {
+    text-align: center;
+    font-size: 24px;
+    padding:0;
+    margin:0;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -64,6 +91,12 @@
   padding-top: 400px;
   color:white;
   }
+  .help {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    margin:0;
+  }
 }
 .carousel-inner img {
   margin: auto;
@@ -71,7 +104,6 @@
 .panel-footer {
   margin-left:520px;
 }
-
 
 .goal {
     padding: 0;
