@@ -26,12 +26,15 @@
 .help {
   text-align: center;
 }
+
 @media only screen and (min-width: 315px) {
   .title {
   margin:0;
-  padding-left: 20px;
   padding-top: 400px;
   color:white;
+  font-size: 45px;
+  padding-left: 30px;
+
   }
   .help {
     text-align: center;
@@ -86,7 +89,7 @@
 @media only screen and (min-width: 1024px) {
   .title {
   margin:0;
-  padding-left: 428px;
+  padding-left: 400px;
   padding-top: 400px;
   color:white;
   }
@@ -265,35 +268,35 @@
 }
 
 .fa-twitter {
-    color: #4099FF;
+    color: #D8D8D8;
 }
 
 .fa-facebook {
-    color: #3B5998;
+    color: #D8D8D8;
 }
 
 .fa-youtube-play {
-    color: #e52d27;
+    color: #D8D8D8;
 }
 
 .fa-rss {
-    color: #FF6600;
+    color: #D8D8D8;
 }
 
 .fa-vine {
-    color: #00a478;
+    color: #D8D8D8;
 }
 
 .fa-flickr {
-    color: #ff0084;
+    color: #D8D8D8;
 }
 
 .fa-twitch {
-    color: #6441A5;
+    color: #D8D8D8;
 }
 
 .fa-linkedin {
-    color: #007bb6;
+    color: #D8D8D8;
 }
 
 .fa {
