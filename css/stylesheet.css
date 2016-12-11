@@ -19,7 +19,12 @@
 .navbarMargin{
   margin:0;
 }
-
+.greenbox {
+  height:800px;
+  width:1274px;
+  background-color: #63A541;
+  display: inline-block;
+}
 .button {
   padding: 15px;
 }
@@ -27,9 +32,12 @@
   text-align: center;
 }
 .contmargin {
-  margin:0;
+  margin-top:0;
 }
 
+.carpic {
+  margin:auto;
+}
 @media only screen and (min-width: 315px) {
   .title {
   margin:0;
@@ -42,6 +50,11 @@
   .help {
     text-align: center;
     font-size: 14px;
+  }
+  .address {
+    margin:0;
+    padding-top: 450px;
+    padding-left: 30px;
   }
 }
 
@@ -58,7 +71,12 @@
     padding:0;
     margin:0;
   }
+. {
+
 }
+}
+
+
 @media only screen and (min-width: 414px) {
   .title {
   margin:0;
@@ -136,6 +154,7 @@
 
 .light_green{
   background-color: #CDDFC4;
+  margin:0;
 }
 
 .light_green_header{
@@ -156,8 +175,9 @@
 }
 
 .emailenter{
- width: 100px;
+ width: 200px;
 }
+
 
 /*hover effect*/
 
@@ -247,8 +267,13 @@
   text-align: center;
 }
 
+.starTitle {
+  color: black;
+}
+.subtitle {
+  color: grey;
+}
 .container{
-  margin-top: 50px;
   padding-top: 55px;
   color: #fff;
   width: 100%;
