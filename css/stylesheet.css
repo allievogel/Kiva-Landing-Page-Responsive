@@ -25,7 +25,9 @@
    height: 630px;
   font-family: "Muli", serif;
 }
-
+.phone {
+  padding-left: 400px;
+}
 .goals{
   padding-top:25px;
   font-size: 50px;
@@ -106,11 +108,12 @@ padding-bottom: 20px;
 .iphone{
   text-align:right;
   display: inline-block;
+  padding-left:70px;
 }
 
 
 @media only screen and (min-width: 315px) {
-  .title {
+  .titlehead {
     margin: 0;
     padding-top: 400px;
     padding-right: 150px;
@@ -153,7 +156,8 @@ padding-bottom: 20px;
     padding-bottom: 30px;
   }
 
-  .light_green_text_help {
+  .
+  _text_help {
     font-size: 14px;
     color: black;
     text-align: center;
@@ -170,7 +174,7 @@ padding-bottom: 20px;
 }
 
 @media only screen and (min-width: 375px) {
-  .title {
+  .titlehead {
   margin:0;
   padding-left: 55px;
   padding-top: 400px;
@@ -217,7 +221,7 @@ padding-bottom: 20px;
 
 
 @media only screen and (min-width: 414px) {
-  .title {
+  .titlehead {
   margin:0;
   padding-left: 70px;
   padding-top: 400px;
@@ -262,9 +266,9 @@ padding-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-  .title {
+  .titlehead {
   margin:0;
-  padding-left: 180px;
+  padding-left: 250px;
   padding-top: 400px;
   color:white;
   }
@@ -307,9 +311,9 @@ padding-bottom: 20px;
 }
 
 @media only screen and (min-width: 1024px) {
-  .title {
+  .titlehead {
   margin:0;
-  padding-left: 100px;
+  padding-left: 300px;
   padding-top: 400px;
   color:white;
   font-size: 65px;
@@ -402,14 +406,14 @@ padding-bottom: 20px;
 
 .light_green{
   background-color: #CDDFC4;
-  margin:0;
-}
+  margin-top:50px;
+  }
 
-.light_green_header{
+.header{
   text-align: center;
 }
 
-.light_green_text{
+.text{
   text-align: center;
 }
 
@@ -527,7 +531,7 @@ padding-bottom: 20px;
 
 .container_white{
   background-color:white;
-  padding-top: 50px;
+  padding-top: 0px;
 }
 
 .container{
@@ -538,7 +542,7 @@ padding-bottom: 20px;
 }
 
 /*contact form*/
-body {
+.body {
   font-family: 'Lato', georgia;
   font-size: 25px;
   color: black;
@@ -547,10 +551,16 @@ body {
   font-weight: 300;
   -webkit-font-smoothing: antialiased;
 }
-
+.send {
+  margin-left: 100px;
+  padding-left: 20px;
+}
 #contact-form {
   max-width: 90%;
   margin: 0 auto;
+  font-size: 22px;
+  font-family: "Muli";
+
 }
 
 label {
