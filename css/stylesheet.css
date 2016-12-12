@@ -44,6 +44,10 @@
 
 }
 
+.footcont {
+  margin:auto;
+  padding-top: 0;
+}
 .startTitle_help{
 padding-bottom: 20px;
 }
@@ -723,4 +727,3 @@ small {
     transition: 1s;
     -webkit-transition: 1s;
   }
-
