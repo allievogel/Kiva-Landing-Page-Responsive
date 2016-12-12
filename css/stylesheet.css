@@ -1,4 +1,6 @@
 
+
+
 .entry {
   margin-right: 100px;
   float:right;
@@ -9,10 +11,12 @@
   padding-top: 5px;
   padding-bottom: 5px;
   font-family: "Avenir", serif;
+  font-size: 16px;
 }
 .logo2 {
   padding: 0;
-  padding-left: 50px;
+  padding-left: 80px;
+  margin-top: 5px;
 }
 .back {
    background-image: url("../KivaPhotos/KivaPhotos/mmfiwbhx1by-ron-hansen.jpg");
@@ -109,6 +113,7 @@ padding-bottom: 20px;
   .title {
     margin: 0;
     padding-top: 400px;
+    padding-right: 150px;
     color: white;
     font-size: 48px;
     padding-left: 30px;
@@ -152,6 +157,14 @@ padding-bottom: 20px;
     color: black;
     text-align: center;
     font-family: "Avenir", serif;
+  }
+
+  .advantages{
+    font-size: 30px;
+  }
+
+  .start_category{
+    font-size: 30px;
   }
 }
 
@@ -295,7 +308,7 @@ padding-bottom: 20px;
 @media only screen and (min-width: 1024px) {
   .title {
   margin:0;
-  padding-left: 400px;
+  padding-left: 100px;
   padding-top: 400px;
   color:white;
   font-size: 65px;
@@ -371,7 +384,7 @@ padding-bottom: 20px;
   }
 
   .infomargin {
-    margin-top: 40px;
+    margin-top: 0px;
   }
 
   .row{
@@ -497,6 +510,7 @@ padding-bottom: 20px;
 
 .footer {
   bottom: 0;
+  padding-top: 20px;
   width: 100%;
   height: 150px;
   background-color: #111;
