@@ -108,7 +108,6 @@ padding-bottom: 20px;
 .iphone{
   text-align:right;
   display: inline-block;
-  padding-left:70px;
 }
 
 
@@ -393,10 +392,6 @@ padding-bottom: 20px;
     margin-bottom: 50px;
   }
 
-  .row{
-    padding-top: 15px;
-    padding-bottom: 55px;
-  }
 
 
   /*Advantages CSS*/
@@ -516,7 +511,7 @@ padding-bottom: 20px;
 
 .footer {
   bottom: 0;
-  padding-top: 20px;
+  padding-top: 50px;
   width: 100%;
   height: 150px;
   background-color: #111;
@@ -542,6 +537,15 @@ padding-bottom: 20px;
   width: 100%;
 }
 
+.dearkiva {
+  width: 350px;
+  margin: auto;
+  padding: 10px;
+}
+
+.name {
+  width: 250px;
+}
 /*contact form*/
 .body {
   font-family: 'Lato', georgia;
@@ -553,20 +557,26 @@ padding-bottom: 20px;
   -webkit-font-smoothing: antialiased;
 }
 .send {
-  margin-left: 100px;
+  margin-left: 410px;
   padding-left: 20px;
+  vertical-align: center;
 }
-#contact-form {
-  max-width: 90%;
+.formtext {
   margin: 0 auto;
-  font-size: 22px;
+  font-size: 24px;
   font-family: "Muli";
-
+  color:black;
 }
-
+.formpad {
+  margin-left: 50px;
+}
+.cell {
+  width: 265px;
+}
 label {
   font-weight: 400;
   cursor: pointer;
+  width: auto;
 }
 
 textarea,
@@ -676,12 +686,15 @@ input:required:invalid {
   fill: rgba(0, 0, 0, 1);
   cursor: pointer;
 }
-
+.reducepad {
+  padding-top: 0;
+}
 button {
   background: none;
   border: none;
   outline: none;
   margin: 2vmax;
+  padding-left: 95px;
 }
 
 button:hover small {
