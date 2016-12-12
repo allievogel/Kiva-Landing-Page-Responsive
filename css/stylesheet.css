@@ -4,13 +4,13 @@
 .entry {
   margin-right: 100px;
   float:right;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
 }
 .logo {
   height: 95%;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
   font-size: 16px;
 }
 .logo2 {
@@ -23,13 +23,13 @@
    background-size: cover;
    background-position: center;
    height: 630px;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
 }
 
 .goals{
   padding-top:25px;
   font-size: 50px;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
   color: #64A544;
   font-weight: bold;
 }
@@ -44,7 +44,7 @@
   text-align: center;
   color: #64A544;
   font-weight: bold;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
 
 }
 
@@ -61,19 +61,19 @@ padding-bottom: 20px;
   text-align: center;
   color: #64A544;
   font-weight: bold;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
 
 }
 
 .people{
   font-size: 20px;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
   margin-left:100px;
   margin-right:100px;
 }
 .navbarMargin{
   margin:0;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
 }
 .greenbox {
   height:800px;
@@ -83,24 +83,24 @@ padding-bottom: 20px;
 }
 .button {
   padding: 15px;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
 
 }
 .help {
   text-align: center;
   height: 200px;
   width: 100%;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
 }
 
 .contmargin {
   margin-top:0;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
 }
 
 .carpic {
   margin:auto;
-  font-family: "Roboto", serif;
+  font-family: "Muli", serif;
 }
 
 .iphone{
@@ -144,7 +144,7 @@ padding-bottom: 20px;
     text-align: center;
     color: #64A544;
     font-weight: bold;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
 
   }
 
@@ -156,7 +156,7 @@ padding-bottom: 20px;
     font-size: 14px;
     color: black;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
   }
 
   .advantages{
@@ -194,7 +194,7 @@ padding-bottom: 20px;
     text-align: center;
     color: #64A544;
     font-weight: bold;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
 
   }
 
@@ -202,14 +202,14 @@ padding-bottom: 20px;
     font-size: 14px;
     color: black;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
   }
 
   .pick_category {
     font-size: 25px;
     color: black;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
   }
 
 }
@@ -241,7 +241,7 @@ padding-bottom: 20px;
     text-align: center;
     color: #64A544;
     font-weight: bold;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
 
   }
 
@@ -249,14 +249,14 @@ padding-bottom: 20px;
     font-size: 18px;
     color: black;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
   }
 
   .pick_category {
     font-size: 15px;
     color: black;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
   }
 }
 
@@ -286,7 +286,7 @@ padding-bottom: 20px;
     text-align: center;
     color: #64A544;
     font-weight: bold;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
 
   }
 
@@ -294,14 +294,14 @@ padding-bottom: 20px;
     font-size: 20px;
     color: black;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
   }
 
   .pick_category {
     font-size: 20px;
     color: black;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
   }
 }
 
@@ -319,7 +319,7 @@ padding-bottom: 20px;
     text-align: center;
     color: #64A544;
     font-weight: bold;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
 
   }
 
@@ -327,14 +327,14 @@ padding-bottom: 20px;
     font-size: 20px;
     color: black;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
   }
 
   .pick_category {
     font-size: 25px;
     color: black;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Muli", serif;
   }
 
   .help {
