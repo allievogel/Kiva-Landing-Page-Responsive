@@ -2,9 +2,13 @@
 .entry {
   margin-right: 100px;
   float:right;
+  font-family: "Avenir", serif;
 }
 .logo {
   height: 95%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Avenir", serif;
 }
 .logo2 {
   padding: 0;
@@ -15,46 +19,135 @@
    background-size: cover;
    background-position: center;
    height: 630px;
+  font-family: "Avenir", serif;
+}
+
+.goals{
+  padding-top:25px;
+  font-size: 50px;
+  font-family: "Avenir", serif;
+  color: #64A544;
+  font-weight: bold;
+}
+
+.advantages {
+  padding-top:25px;
+  padding-bottom:none;
+ width: 100%;
+ height: 100px;
+  background-color: white;
+  font-size: 50px;
+  text-align: center;
+  color: #64A544;
+  font-weight: bold;
+  font-family: "Avenir", serif;
+
+}
+
+.startTitle_help{
+padding-bottom: 20px;
+}
+
+.start_category{
+  font-size: 50px;
+  text-align: center;
+  color: #64A544;
+  font-weight: bold;
+  font-family: "Avenir", serif;
+
+}
+
+.people{
+  font-size: 20px;
+  font-family: "Avenir", serif;
+  margin-left:100px;
+  margin-right:100px;
 }
 .navbarMargin{
   margin:0;
+  font-family: "Avenir", serif;
 }
 .greenbox {
   height:800px;
   width:1274px;
-  background-color: #63A541;
+  background-color: white;
   display: inline-block;
 }
 .button {
   padding: 15px;
+  font-family: "Avenir", serif;
+
 }
 .help {
   text-align: center;
+  height: 200px;
+  width: 100%;
+  font-family: "Avenir", serif;
 }
+
 .contmargin {
   margin-top:0;
+  font-family: "Avenir", serif;
 }
 
 .carpic {
   margin:auto;
+  font-family: "Avenir", serif;
 }
+
+.iphone{
+  text-align:right;
+  display: inline-block;
+}
+
+
 @media only screen and (min-width: 315px) {
   .title {
-  margin:0;
-  padding-top: 400px;
-  color:white;
-  font-size: 45px;
-  padding-left: 30px;
+    margin: 0;
+    padding-top: 400px;
+    color: white;
+    font-size: 48px;
+    padding-left: 30px;
 
   }
+
   .help {
     text-align: center;
     font-size: 14px;
   }
+
   .address {
-    margin:0;
+    margin: 0;
     padding-top: 450px;
     padding-left: 30px;
+  }
+
+  .people {
+    font-size: 14px;
+  }
+
+  .goals {
+    font-size: 30px;
+  }
+
+  .light_green_header_help {
+    font-size: 30px;
+    text-align: center;
+    color: #64A544;
+    font-weight: bold;
+    font-family: "Avenir", serif;
+
+  }
+
+  .goalswhite{
+    background-color:white;
+  }
+
+  .light_green_text_help {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    font-family: "Avenir", serif;
   }
 }
 
@@ -67,13 +160,41 @@
   }
   .help {
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     padding:0;
     margin:0;
   }
-. {
-
+  .people {
+    font-size: 16px;
 }
+
+  .goals {
+    font-size: 35px;
+  }
+
+  .light_green_header_help {
+    font-size: 30px;
+    text-align: center;
+    color: #64A544;
+    font-weight: bold;
+    font-family: "Avenir", serif;
+
+  }
+
+  .light_green_text_help {
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    font-family: "Avenir", serif;
+  }
+
+  .pick_category {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-family: "Avenir", serif;
+  }
+
 }
 
 
@@ -86,9 +207,39 @@
   }
   .help {
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
     padding:0;
     margin:0;
+  }
+  .people {
+    font-size: 18px;
+  }
+
+  .goals {
+    font-size: 40px;
+  }
+
+  .light_green_header_help {
+    font-size: 35px;
+    text-align: center;
+    color: #64A544;
+    font-weight: bold;
+    font-family: "Avenir", serif;
+
+  }
+
+  .light_green_text_help {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    font-family: "Avenir", serif;
+  }
+
+  .pick_category {
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    font-family: "Avenir", serif;
   }
 }
 
@@ -105,6 +256,36 @@
     padding:0;
     margin:0;
   }
+  .people {
+    font-size: 20px;
+  }
+
+  .goals {
+    font-size: 45px;
+  }
+
+  .light_green_header_help {
+    font-size: 40px;
+    text-align: center;
+    color: #64A544;
+    font-weight: bold;
+    font-family: "Avenir", serif;
+
+  }
+
+  .light_green_text_help {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: "Avenir", serif;
+  }
+
+  .pick_category {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: "Avenir", serif;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -113,11 +294,44 @@
   padding-left: 400px;
   padding-top: 400px;
   color:white;
+  font-size: 65px;
   }
+
+  .light_green_header_help {
+    font-size: 50px;
+    text-align: center;
+    color: #64A544;
+    font-weight: bold;
+    font-family: "Avenir", serif;
+
+  }
+
+  .light_green_text_help {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: "Avenir", serif;
+  }
+
+  .pick_category {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    font-family: "Avenir", serif;
+  }
+
   .help {
     text-align: center;
     font-size: 30px;
     margin:0;
+  }
+
+  .people {
+    font-size: 22px;
+  }
+
+  .goals {
+    font-size: 50px;
   }
 }
 .carousel-inner img {
@@ -138,8 +352,10 @@
 
   .adv-back {
     height:607px;
-    background-color: #63A541;
+    background-color: white;
     display: inline-block;
+    margin-left:30px;
+    margin-right:30px;
   }
 
   .advPos {
@@ -150,7 +366,21 @@
     text-align: center;
   }
 
+  .infomargin {
+    margin-top: 40px;
+  }
+
+  .row{
+    padding-top: 15px;
+    padding-bottom: 55px;
+  }
+
+
   /*Advantages CSS*/
+
+.advantage{
+  background-color:white;
+}
 
 .light_green{
   background-color: #CDDFC4;
@@ -167,6 +397,9 @@
 
 .btn{
   background-color: #64A544;
+  height: 50px;
+  width: 150px;
+  font-size: 20px;
 }
 
 .advantagebtn {
@@ -177,7 +410,6 @@
 .emailenter{
  width: 200px;
 }
-
 
 /*hover effect*/
 
@@ -273,11 +505,180 @@
 .subtitle {
   color: grey;
 }
+
+.container_white{
+  background-color:white;
+  padding-top: 50px;
+}
+
 .container{
   padding-top: 55px;
+  padding-bottom: 15px;
   color: #fff;
   width: 100%;
 }
+
+/*contact form*/
+body {
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: black;
+  background-color: #CFE3C7;
+  text-align: center;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+#contact-form {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: 400;
+  cursor: pointer;
+}
+
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: none;
+  font-weight: 700;
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  max-width: 90%;
+  padding: 1rem;
+  border: 2px dashed rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+  cursor: text;
+}
+
+textarea {
+  text-align: left;
+  /* overflow:hidden; */
+
+  resize: none;
+  width: 90%;
+  border-color: rgba(255, 255, 255, 0)
+}
+
+textarea:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px dashed rgba(255, 255, 255, 1);
+}
+
+textarea:focus:required:valid {
+  border: 2px solid rgba(255, 255, 255, 0);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+textarea:required:valid {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+input {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:required,
+textarea:required {
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+}
+
+input:focus {
+  border-bottom: 2px dashed rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+input:required:valid {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+input:required:invalid {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.expanding {
+  vertical-align: top;
+}
+
+.send-icn {
+  fill: rgba(255, 255, 255, 1)
+}
+
+.send-icn:hover {
+  fill: rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 2vmax;
+}
+
+button:hover small {
+  opacity: 1;
+}
+
+small {
+  display: block;
+  opacity: 0;
+}
+
+.website {
+  opacity: 1;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-top: 7%;
+
+}
+
+.website a {
+  color: white;
+}
+
+/*footer*/
 
 .fa-twitter {
     color: #D8D8D8;
@@ -322,3 +723,4 @@
     transition: 1s;
     -webkit-transition: 1s;
   }
+
